@@ -2,6 +2,7 @@ import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { supabase } from '@eb-packages/logic';
+import { FloatingLogoutButton } from '@eb-packages/ui';
 import { Session } from '@supabase/supabase-js';
 import '../global.css';
 
@@ -47,6 +48,9 @@ export default function RootLayout() {
         <Stack.Screen name='auth' options={{ headerShown: false }} />
       </Stack>
       <StatusBar style='light' />
+      {session && (
+        <FloatingLogoutButton onLogout={() => supabase.auth.signOut()} />
+      )}
     </>
   );
 }
