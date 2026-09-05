@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { AuthScreen as SharedAuthScreen } from '@eb-packages/ui';
+import { AuthScreen as SharedAuthScreen } from '@entity-builders/ui';
 
 export default function AuthScreen() {
   return (

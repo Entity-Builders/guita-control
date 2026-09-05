@@ -1,4 +1,4 @@
-import { FixedExpensesManager } from '@eb-packages/ui';
+import { FixedExpensesManager } from '@entity-builders/ui';
 import { View } from 'react-native';
 import { styled } from 'nativewind';
 

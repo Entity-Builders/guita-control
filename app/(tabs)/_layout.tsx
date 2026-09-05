@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { CurrencyProvider, ExpensesProvider } from '@eb-packages/ui';
+import { CurrencyProvider, ExpensesProvider } from '@entity-builders/ui';
 
 export default function TabLayout() {
   return (

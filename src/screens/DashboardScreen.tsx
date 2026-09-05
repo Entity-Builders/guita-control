@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, ScrollView } from 'react-native';
 import { styled } from 'nativewind';
-import { useGuitaStats } from '@eb-packages/logic';
+import { useGuitaStats } from '@entity-builders/logic';
 import {
   MonthSummaryCard,
   MonotributoCard,
   FinancialOverviewCard,
   DashboardHeader,
   ExpenseList,
-} from '@eb-packages/ui';
+} from '@entity-builders/ui';
 
 const StyledView = styled(View);
 

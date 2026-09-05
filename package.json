@@ -9,8 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@eb-packages/logic": "*",
-    "@eb-packages/ui": "*",
+    "@entity-builders/logic": "*",
+    "@entity-builders/ui": "*",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "expo": "~54.0.27",
     "expo-constants": "~18.0.11",

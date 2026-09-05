@@ -1,8 +1,8 @@
 import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { supabase } from '@eb-packages/logic';
-import { FloatingLogoutButton } from '@eb-packages/ui';
+import { supabase } from '@entity-builders/logic';
+import { FloatingLogoutButton } from '@entity-builders/ui';
 import { Session } from '@supabase/supabase-js';
 import '../global.css';
 
