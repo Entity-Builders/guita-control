@@ -9,8 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@entity-builders/logic": "*",
-    "@entity-builders/ui": "*",
+    "@entity-builders/logic": "^1.0.0",
+    "@entity-builders/ui": "^1.0.0",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "expo": "~54.0.27",
     "expo-constants": "~18.0.11",
@@ -34,5 +34,10 @@
     "autoprefixer": "^10.4.23",
     "postcss": "^8.5.6",
     "typescript": "^5.9.3"
+  },
+  "packageManager": "yarn@4.13.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Entity-Builders/guita-control.git"
   }
 }
